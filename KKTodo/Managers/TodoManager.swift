@@ -49,6 +49,11 @@ class TodoManager {
         saveTodoList(todoList)
     }
     
+    func renameTask(task: TaskModel, with newTitle: String) {
+        task.title = newTitle
+        saveTodoList(todoList)
+    }
+    
     // MARK: - Private methods
     private func getTodoList() -> [CardModel] {
         if let cards = cards {

@@ -136,7 +136,7 @@ extension CardUIManager: AddCardCellDelegate, CardCellDelegate {
         let deleteAction = UIAlertAction(title: "Delete", style: UIAlertAction.Style.destructive, handler: { alert -> Void in
             TodoManager.shared.removeCard(card: card)
         })
-        let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.default, handler: {
+        let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.cancel, handler: {
             (action : UIAlertAction!) -> Void in })
         
         alertController.addAction(deleteAction)
