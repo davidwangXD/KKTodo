@@ -8,8 +8,8 @@
 
 import Foundation
 
-@objc class TodoManager: NSObject {
-    @objc static let shared = TodoManager()
+class TodoManager {
+    static let shared = TodoManager()
     
     private(set) var todoList: [CardModel] {
         get {
@@ -25,25 +25,25 @@ import Foundation
     private var cards: [CardModel]?
     
     // MARK: - Public methods
-    @objc func addCard(title: String) {
+    func addCard(title: String) {
         todoList.append(CardModel(title: title))
     }
     
-    @objc func removeCard(card: CardModel) {
+    func removeCard(card: CardModel) {
         todoList.removeAll(where: { $0 == card })
     }
     
-    @objc func renameCard(card: CardModel, with newTitle: String) {
+    func renameCard(card: CardModel, with newTitle: String) {
         card.title = newTitle
         saveTodoList(todoList)
     }
     
-    @objc func addTask(title: String, to card: CardModel) {
+    func addTask(title: String, to card: CardModel) {
         card.tasks.add(TaskModel(title: title))
         saveTodoList(todoList)
     }
     
-    @objc func removeTask(task: TaskModel, from card: CardModel) {
+    func removeTask(task: TaskModel, from card: CardModel) {
         guard card.tasks.contains(task) else { return }
         card.tasks.remove(task)
         saveTodoList(todoList)

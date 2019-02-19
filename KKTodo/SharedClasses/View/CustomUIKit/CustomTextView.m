@@ -72,12 +72,6 @@
     [[NSNotificationCenter defaultCenter] removeObserver:self name:UITextViewTextDidChangeNotification object:nil];
 }
 
-#pragma mark - UITextViewDelegate
-- (BOOL)textView:(UITextView *)textView shouldInteractWithURL:(NSURL *)URL inRange:(NSRange)characterRange {
-//    [WebViewController pushWithSourceVC:nil url:URL.absoluteString title:nil backFunc:nil];
-    return YES;
-}
-
 #pragma mark - Placeholder
 - (void)setPlaceholder:(NSString *)placeholder {
     _placeholder = placeholder;
