@@ -201,7 +201,7 @@
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="qCB-XB-2bM" secondAttribute="trailing" constant="15" id="4Ab-op-iUQ"/>
                                             <constraint firstItem="qCB-XB-2bM" firstAttribute="leading" secondItem="0tg-bF-87i" secondAttribute="leading" constant="15" id="V80-Yk-ryQ"/>
-                                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="qCB-XB-2bM" secondAttribute="bottom" id="bNY-pn-RQS"/>
+                                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="qCB-XB-2bM" secondAttribute="bottom" constant="15" id="bNY-pn-RQS"/>
                                             <constraint firstItem="qCB-XB-2bM" firstAttribute="top" secondItem="0tg-bF-87i" secondAttribute="top" constant="15" id="wfd-ic-Qqz"/>
                                         </constraints>
                                         <size key="customSize" width="414" height="773"/>

@@ -60,7 +60,7 @@
     [self.tableView reloadData];
     [self.tableView layoutIfNeeded];
     CGFloat height = self.tableView.contentSize.height;
-    CGFloat maxHeight = self.bounds.size.height - 44.0 - [self.tableView.superview convertRect:self.tableView.frame toView:self].origin.y;
+    CGFloat maxHeight = self.bounds.size.height - 44.0 - [self.tableView.superview convertRect:self.tableView.frame toView:self].origin.y - 15.0;
     self.tableViewHeight.constant = height < maxHeight ? height : maxHeight;
     self.tableView.scrollEnabled = !(height < maxHeight);
     [self.tableView.superview layoutIfNeeded];
