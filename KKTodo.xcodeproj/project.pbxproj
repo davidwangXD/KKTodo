@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2136A5CD221BB0ED0066B832 /* CardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136A5CC221BB0ED0066B832 /* CardModel.m */; };
+		2136A5D0221BB0FD0066B832 /* TaskModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136A5CF221BB0FD0066B832 /* TaskModel.m */; };
+		2136A5D2221BB4A60066B832 /* TodoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2136A5D1221BB4A60066B832 /* TodoManager.swift */; };
+		2136A5D4221C3ADD0066B832 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2136A5D3221C3ADD0066B832 /* TaskViewController.swift */; };
+		217B5913221A5E88002434D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217B5912221A5E88002434D3 /* AppDelegate.swift */; };
+		217B5918221A5E88002434D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 217B5916221A5E88002434D3 /* Main.storyboard */; };
+		217B591A221A5E8A002434D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 217B5919221A5E8A002434D3 /* Assets.xcassets */; };
+		217B591D221A5E8A002434D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 217B591B221A5E8A002434D3 /* LaunchScreen.storyboard */; };
+		217B5934221A6076002434D3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217B5933221A6076002434D3 /* BaseViewController.swift */; };
+		217B5938221A60DD002434D3 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 217B5937221A60DD002434D3 /* BaseTableViewCell.m */; };
+		217B593B221A6108002434D3 /* BaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 217B593A221A6108002434D3 /* BaseCollectionViewCell.m */; };
+		217B593D221A6147002434D3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217B593C221A6147002434D3 /* HomeViewController.swift */; };
+		217B5941221A62AB002434D3 /* CustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 217B5940221A62AB002434D3 /* CustomLabel.m */; };
+		217B5944221A62C6002434D3 /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 217B5943221A62C6002434D3 /* CustomTextField.m */; };
+		217B5947221A62F1002434D3 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 217B5946221A62F1002434D3 /* CustomButton.m */; };
+		217B594A221A6308002434D3 /* CustomImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 217B5949221A6308002434D3 /* CustomImageView.m */; };
+		217B594D221A631A002434D3 /* CustomTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 217B594C221A631A002434D3 /* CustomTextView.m */; };
+		217B5950221A6449002434D3 /* RegExTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217B594F221A6449002434D3 /* RegExTool.swift */; };
+		217B5955221A9BB2002434D3 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 217B5954221A9BB2002434D3 /* CustomView.m */; };
+		217B595D221ABE3B002434D3 /* CardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 217B595C221ABE3B002434D3 /* CardCell.m */; };
+		217B5962221AFBB8002434D3 /* CardUIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217B5961221AFBB8002434D3 /* CardUIManager.swift */; };
+		217B5965221AFE79002434D3 /* AddCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 217B5964221AFE79002434D3 /* AddCardCell.m */; };
+		217B5968221B0A46002434D3 /* TaskCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 217B5967221B0A46002434D3 /* TaskCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2136A5CB221BB0ED0066B832 /* CardModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardModel.h; sourceTree = "<group>"; };
+		2136A5CC221BB0ED0066B832 /* CardModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardModel.m; sourceTree = "<group>"; };
+		2136A5CE221BB0FD0066B832 /* TaskModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskModel.h; sourceTree = "<group>"; };
+		2136A5CF221BB0FD0066B832 /* TaskModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskModel.m; sourceTree = "<group>"; };
+		2136A5D1221BB4A60066B832 /* TodoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoManager.swift; sourceTree = "<group>"; };
+		2136A5D3221C3ADD0066B832 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		217B590F221A5E88002434D3 /* KKTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		217B5912221A5E88002434D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		217B5917221A5E88002434D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		217B5919221A5E8A002434D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		217B591C221A5E8A002434D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		217B591E221A5E8A002434D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		217B5933221A6076002434D3 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		217B5935221A60DC002434D3 /* KKTodo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KKTodo-Bridging-Header.h"; sourceTree = "<group>"; };
+		217B5936221A60DD002434D3 /* BaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		217B5937221A60DD002434D3 /* BaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		217B5939221A6108002434D3 /* BaseCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewCell.h; sourceTree = "<group>"; };
+		217B593A221A6108002434D3 /* BaseCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewCell.m; sourceTree = "<group>"; };
+		217B593C221A6147002434D3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		217B593F221A62AB002434D3 /* CustomLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomLabel.h; sourceTree = "<group>"; };
+		217B5940221A62AB002434D3 /* CustomLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomLabel.m; sourceTree = "<group>"; };
+		217B5942221A62C6002434D3 /* CustomTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
+		217B5943221A62C6002434D3 /* CustomTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
+		217B5945221A62F1002434D3 /* CustomButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		217B5946221A62F1002434D3 /* CustomButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		217B5948221A6308002434D3 /* CustomImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomImageView.h; sourceTree = "<group>"; };
+		217B5949221A6308002434D3 /* CustomImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomImageView.m; sourceTree = "<group>"; };
+		217B594B221A631A002434D3 /* CustomTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTextView.h; sourceTree = "<group>"; };
+		217B594C221A631A002434D3 /* CustomTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTextView.m; sourceTree = "<group>"; };
+		217B594F221A6449002434D3 /* RegExTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegExTool.swift; sourceTree = "<group>"; };
+		217B5953221A9BB2002434D3 /* CustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		217B5954221A9BB2002434D3 /* CustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		217B595A221ABBE3002434D3 /* CustomUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomUIKit.h; sourceTree = "<group>"; };
+		217B595B221ABE3B002434D3 /* CardCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardCell.h; sourceTree = "<group>"; };
+		217B595C221ABE3B002434D3 /* CardCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardCell.m; sourceTree = "<group>"; };
+		217B5961221AFBB8002434D3 /* CardUIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardUIManager.swift; sourceTree = "<group>"; };
+		217B5963221AFE79002434D3 /* AddCardCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddCardCell.h; sourceTree = "<group>"; };
+		217B5964221AFE79002434D3 /* AddCardCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddCardCell.m; sourceTree = "<group>"; };
+		217B5966221B0A46002434D3 /* TaskCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskCell.h; sourceTree = "<group>"; };
+		217B5967221B0A46002434D3 /* TaskCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		217B590C221A5E88002434D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		217B5906221A5E87002434D3 = {
+			isa = PBXGroup;
+			children = (
+				217B5911221A5E88002434D3 /* KKTodo */,
+				217B5910221A5E88002434D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		217B5910221A5E88002434D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				217B590F221A5E88002434D3 /* KKTodo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		217B5911221A5E88002434D3 /* KKTodo */ = {
+			isa = PBXGroup;
+			children = (
+				217B593E221A619B002434D3 /* Managers */,
+				217B5952221A99CA002434D3 /* Models */,
+				217B5925221A5F80002434D3 /* Controllers */,
+				217B5924221A5F69002434D3 /* SharedClasses */,
+				217B5912221A5E88002434D3 /* AppDelegate.swift */,
+				217B5935221A60DC002434D3 /* KKTodo-Bridging-Header.h */,
+				217B5919221A5E8A002434D3 /* Assets.xcassets */,
+				217B591B221A5E8A002434D3 /* LaunchScreen.storyboard */,
+				217B591E221A5E8A002434D3 /* Info.plist */,
+			);
+			path = KKTodo;
+			sourceTree = "<group>";
+		};
+		217B5924221A5F69002434D3 /* SharedClasses */ = {
+			isa = PBXGroup;
+			children = (
+				217B594E221A6408002434D3 /* Tool */,
+				217B5929221A5F96002434D3 /* Controller */,
+				217B5927221A5F8B002434D3 /* View */,
+			);
+			path = SharedClasses;
+			sourceTree = "<group>";
+		};
+		217B5925221A5F80002434D3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				217B592C221A6001002434D3 /* Home */,
+				217B592B221A5FEE002434D3 /* Base */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		217B5927221A5F8B002434D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				217B592A221A5FAA002434D3 /* CustomUIKit */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		217B5929221A5F96002434D3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		217B592A221A5FAA002434D3 /* CustomUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				217B593F221A62AB002434D3 /* CustomLabel.h */,
+				217B5940221A62AB002434D3 /* CustomLabel.m */,
+				217B5942221A62C6002434D3 /* CustomTextField.h */,
+				217B5943221A62C6002434D3 /* CustomTextField.m */,
+				217B5945221A62F1002434D3 /* CustomButton.h */,
+				217B5946221A62F1002434D3 /* CustomButton.m */,
+				217B5948221A6308002434D3 /* CustomImageView.h */,
+				217B5949221A6308002434D3 /* CustomImageView.m */,
+				217B594B221A631A002434D3 /* CustomTextView.h */,
+				217B594C221A631A002434D3 /* CustomTextView.m */,
+				217B5953221A9BB2002434D3 /* CustomView.h */,
+				217B5954221A9BB2002434D3 /* CustomView.m */,
+				217B595A221ABBE3002434D3 /* CustomUIKit.h */,
+			);
+			path = CustomUIKit;
+			sourceTree = "<group>";
+		};
+		217B592B221A5FEE002434D3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				217B5933221A6076002434D3 /* BaseViewController.swift */,
+				217B5931221A6053002434D3 /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		217B592C221A6001002434D3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				217B593C221A6147002434D3 /* HomeViewController.swift */,
+				2136A5D3221C3ADD0066B832 /* TaskViewController.swift */,
+				217B5961221AFBB8002434D3 /* CardUIManager.swift */,
+				217B592E221A6013002434D3 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		217B592E221A6013002434D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				217B595B221ABE3B002434D3 /* CardCell.h */,
+				217B595C221ABE3B002434D3 /* CardCell.m */,
+				217B5963221AFE79002434D3 /* AddCardCell.h */,
+				217B5964221AFE79002434D3 /* AddCardCell.m */,
+				217B5966221B0A46002434D3 /* TaskCell.h */,
+				217B5967221B0A46002434D3 /* TaskCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		217B5931221A6053002434D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				217B5916221A5E88002434D3 /* Main.storyboard */,
+				217B5936221A60DD002434D3 /* BaseTableViewCell.h */,
+				217B5937221A60DD002434D3 /* BaseTableViewCell.m */,
+				217B5939221A6108002434D3 /* BaseCollectionViewCell.h */,
+				217B593A221A6108002434D3 /* BaseCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		217B593E221A619B002434D3 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2136A5D1221BB4A60066B832 /* TodoManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		217B594E221A6408002434D3 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				217B594F221A6449002434D3 /* RegExTool.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		217B5952221A99CA002434D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2136A5CB221BB0ED0066B832 /* CardModel.h */,
+				2136A5CC221BB0ED0066B832 /* CardModel.m */,
+				2136A5CE221BB0FD0066B832 /* TaskModel.h */,
+				2136A5CF221BB0FD0066B832 /* TaskModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		217B590E221A5E88002434D3 /* KKTodo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 217B5921221A5E8A002434D3 /* Build configuration list for PBXNativeTarget "KKTodo" */;
+			buildPhases = (
+				217B590B221A5E88002434D3 /* Sources */,
+				217B590C221A5E88002434D3 /* Frameworks */,
+				217B590D221A5E88002434D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKTodo;
+			productName = KKTodo;
+			productReference = 217B590F221A5E88002434D3 /* KKTodo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		217B5907221A5E88002434D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "David Wang";
+				TargetAttributes = {
+					217B590E221A5E88002434D3 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 217B590A221A5E88002434D3 /* Build configuration list for PBXProject "KKTodo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 217B5906221A5E87002434D3;
+			productRefGroup = 217B5910221A5E88002434D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				217B590E221A5E88002434D3 /* KKTodo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		217B590D221A5E88002434D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217B591D221A5E8A002434D3 /* LaunchScreen.storyboard in Resources */,
+				217B591A221A5E8A002434D3 /* Assets.xcassets in Resources */,
+				217B5918221A5E88002434D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		217B590B221A5E88002434D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217B594D221A631A002434D3 /* CustomTextView.m in Sources */,
+				217B595D221ABE3B002434D3 /* CardCell.m in Sources */,
+				2136A5D0221BB0FD0066B832 /* TaskModel.m in Sources */,
+				217B5947221A62F1002434D3 /* CustomButton.m in Sources */,
+				217B593D221A6147002434D3 /* HomeViewController.swift in Sources */,
+				217B594A221A6308002434D3 /* CustomImageView.m in Sources */,
+				2136A5CD221BB0ED0066B832 /* CardModel.m in Sources */,
+				217B5938221A60DD002434D3 /* BaseTableViewCell.m in Sources */,
+				217B5955221A9BB2002434D3 /* CustomView.m in Sources */,
+				217B5965221AFE79002434D3 /* AddCardCell.m in Sources */,
+				217B5968221B0A46002434D3 /* TaskCell.m in Sources */,
+				217B5962221AFBB8002434D3 /* CardUIManager.swift in Sources */,
+				217B593B221A6108002434D3 /* BaseCollectionViewCell.m in Sources */,
+				2136A5D2221BB4A60066B832 /* TodoManager.swift in Sources */,
+				217B5913221A5E88002434D3 /* AppDelegate.swift in Sources */,
+				217B5950221A6449002434D3 /* RegExTool.swift in Sources */,
+				217B5944221A62C6002434D3 /* CustomTextField.m in Sources */,
+				2136A5D4221C3ADD0066B832 /* TaskViewController.swift in Sources */,
+				217B5934221A6076002434D3 /* BaseViewController.swift in Sources */,
+				217B5941221A62AB002434D3 /* CustomLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		217B5916221A5E88002434D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				217B5917221A5E88002434D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		217B591B221A5E8A002434D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				217B591C221A5E8A002434D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		217B591F221A5E8A002434D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		217B5920221A5E8A002434D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		217B5922221A5E8A002434D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q9RHBTL7DB;
+				INFOPLIST_FILE = KKTodo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anniestudio.KKTodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KKTodo/KKTodo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		217B5923221A5E8A002434D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q9RHBTL7DB;
+				INFOPLIST_FILE = KKTodo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anniestudio.KKTodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KKTodo/KKTodo-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		217B590A221A5E88002434D3 /* Build configuration list for PBXProject "KKTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217B591F221A5E8A002434D3 /* Debug */,
+				217B5920221A5E8A002434D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		217B5921221A5E8A002434D3 /* Build configuration list for PBXNativeTarget "KKTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217B5922221A5E8A002434D3 /* Debug */,
+				217B5923221A5E8A002434D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 217B5907221A5E88002434D3 /* Project object */;
+}
