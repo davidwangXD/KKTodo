@@ -79,7 +79,7 @@ class TodoManager {
     
     private func saveFile(_ todoList: [CardModel]) {
         do {
-            let data = try NSKeyedArchiver.archivedData(withRootObject: cards!, requiringSecureCoding: false)
+            let data = try NSKeyedArchiver.archivedData(withRootObject: todoList, requiringSecureCoding: false)
             try data.write(to: filePath)
         } catch {
             print("Couldn't save file.")
